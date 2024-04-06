@@ -96,7 +96,7 @@ export default function Home() {
         <div ref={brandsRef}>
           <Brands />
         </div>
-        <div ref={servicesRef}>
+        <div id ='services'>
         <Services />
         </div>
         <InfiniteMovingCardsDemo />

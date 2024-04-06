@@ -8,7 +8,6 @@ import { useForm } from "react-hook-form";
 
 import * as z from "zod";
 
-
 import { Checkbox } from "@/components/ui/checkbox";
 
 import {
@@ -51,13 +50,12 @@ const FormSchema = z.object({
     "Get a Quote",
     "Other",
   ]),
-  company_size: z.enum([
-    "1-10",
-    "11-50",
-    "51-200",
-    "201-500",
-    "501-1000",
-    "1000+",
+  services: z.enum([
+    "Mobile App Develoment",
+    "Social Media Marketing",
+    "UI/UX Design",
+    "Branding",
+    "Website Development",
   ]),
   info: z.string(),
 });
@@ -68,12 +66,13 @@ type FormValues = {
   email: string;
   job_title: string;
   company_name: string;
-  help:
-    | "Evaluate Bird for my company"
-    | "Learn More"
-    | "Get a Quote"
-    | "Other";
-  company_size: "1-10" | "11-50" | "51-200" | "201-500" | "501-1000" | "1000+";
+  help: "Evaluate Bird for my company" | "Learn More" | "Get a Quote" | "Other";
+  services:
+    | "Mobile App Develoment"
+    | "Social Media Marketing"
+    | "UI/UX Design"
+    | "Branding"
+    | "Website Development";
   info: string;
   terms: boolean;
 };
@@ -92,7 +91,7 @@ export default function ContactForm() {
       job_title: "",
       company_name: "",
       help: "Learn More",
-      company_size: "1-10",
+      services: "Mobile App Develoment",
       info: "",
     },
   });
@@ -129,7 +128,7 @@ export default function ContactForm() {
         scrollToShopifyStores={() => {}}
         scrollToBrands={() => {}}
         scrollToServices={() => {}}
-       />
+      />
       <div className="md:flex items-start justify-center md:py-20 px-6">
         <div className="">
           <div className="text-5xl font-medium  w-full md:w-2/3  pb-5 md:text-7xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
@@ -246,11 +245,11 @@ export default function ContactForm() {
 
               <FormField
                 control={form.control}
-                name="company_size"
+                name="services"
                 render={({ field }) => (
                   <FormItem className="items-center justify-center w-full">
                     <FormLabel className="text-sm bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-                      Company size ?
+                    Services you are interested in
                     </FormLabel>
                     <Select
                       onValueChange={field.onChange}
@@ -263,9 +262,11 @@ export default function ContactForm() {
                       </FormControl>
                       <SelectContent>
                         <div className="flex gap-4">
-                          <SelectItem value="1-10">1-10</SelectItem>
+                          <SelectItem value="Mobile App Develoment">
+                          Mobile App Develoment
+                          </SelectItem>
                         </div>
-                        <SelectItem value="11-50">11-50</SelectItem>
+                        <SelectItem value="Social Media Marketing">Social Media Marketing</SelectItem>
                         <SelectItem value="51-200">51-200</SelectItem>
                         <SelectItem value="501-1000">501-1000</SelectItem>
                         <SelectItem value="1000+">1000+</SelectItem>
@@ -288,7 +289,10 @@ export default function ContactForm() {
                       defaultValue={field.value}
                     >
                       <FormControl>
-                        <SelectTrigger>
+                        <SelectTrigger
+                        
+                        
+                        >
                           <SelectValue placeholder="Select an option" />
                         </SelectTrigger>
                       </FormControl>
@@ -300,7 +304,7 @@ export default function ContactForm() {
                         </div>
                         <SelectItem value="Learn More">Learn More</SelectItem>
                         <SelectItem value="Get a Quote">Get a Quote</SelectItem>
-               
+
                         <SelectItem value="Other">Other</SelectItem>
                       </SelectContent>
                     </Select>

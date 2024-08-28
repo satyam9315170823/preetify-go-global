@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
+
 import { AlignJustify, X } from "lucide-react";
 
 import Image from "next/image";
@@ -55,23 +56,24 @@ const Navbar = ({
              bg-gradient-to-b from-neutral-50
               to bg-neutral-400 bg-opacity-50"
         >
-          <div onClick={scrollToWebsiteDesign} className="hover:text-gray-50">
-            Website Design
-          </div>
+         
           <div onClick={scrollToGraphicDesign} className="hover:text-gray-50">
-            Graphic Design
+            About
           </div>
 
           <div onClick={scrollToShopifyStores} className="hover:text-gray-50">
-            Shopify Stores
+            Programs
           </div>
           <div onClick={scrollToBrands} className="hover:text-gray-50">
-            Brands
+            Collaboration
           </div>
 
           <Link href="/pricing" className="hover:text-gray-50">
-            Pricing
+            Plans
           </Link>
+           <div onClick={scrollToWebsiteDesign} className="hover:text-gray-50">
+           Experties
+          </div>
         </div>
 
         <div className="flex md:hidden">

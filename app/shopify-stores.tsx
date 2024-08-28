@@ -4,22 +4,22 @@ import Image from "next/image";
 
 const stores = [
   {
-    image: "/images/image2.png",
-    quote: "Bird showed us to get started, what to do, and how to do it.",
-    name: "Jason Scer",
+    image: "/images/image.jpg",
+    quote: "Holistic approach, integrating strategic media management with creative, results-driven campaigns to build lasting brand equity..",
+   
   },
   {
-    image: "/images/shop-2.jpeg",
+    image: "/images/shop.jpg",
     quote:
-      "We had no idea how to get started, but Bird showed us the way. And we were able to create something amazing.",
-    name: "John Prency",
+      "Proven expertise in crafting tailored PR strategies that amplify brand visibility and drive measurable success.",
+    
   },
 
   {
-    image: "/images/s-2.webp",
+    image: "/images/s2.jpg",
     quote:
-      "The team at Bird is amazing. They helped us create a stunning store that we are proud of.",
-    name: "Miguel Martinez",
+      "Client-centric, delivering personalized solutions that enhance your brand's reputation and reach by understanding your unique goals.",
+  
   },
 ];
 
@@ -33,11 +33,11 @@ const ShopifyStores = () => {
     >
       <div className=" p-4   mx-auto relative z-10  w-full ">
         <div className="text-4xl py-10 md:pb-8 md:text-7xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 to-neutral-500 bg-opacity-50">
-          Shopify Stores <br />
+          Why To Choose Us <br />
         </div>
 
         <p className="mt-4 text-lg font-normal  text-neutral-800 max-w-lg text-center mx-auto">
-          We create stunning Shopify stores that are designed to convert.
+        With a proven track record of success, we are committed to helping our clients achieve their goals
         </p>
         <div className="md:flex items-center justify-center  px-10 ">
           {stores.map((store, index) => (
@@ -54,12 +54,9 @@ const ShopifyStores = () => {
                   className="rounded-lg mx-auto"
                 />
                 <p className="text-neutral-800 font-bold text-lg mt-4 text-center ">
-                  &quot;{store.quote}&quot;
+                  {store.quote}
                 </p>
-                <p className="text-neutral-800 font-bold text-lg mt-4">
-                  {" "}
-                  - {store.name}
-                </p>
+              
               </div>
             </div>
           ))}

@@ -14,17 +14,17 @@ const plans = [
     name: "Basic",
     price: " US $499",
     features: [
-      "Fully responsive on all screens",
+      "Media Outreach: Targeted press releases and media",
 
-      "Design + Development",
+      "Social Media Management: Basic strategy and channel management",
 
-      "Private communication channel",
-      "1-3 days turnaround time",
+      "Content Creation: Engaging content for brand visibility.",
+      "Brand Monitoring: Track mentions and manage reputation.",
     ],
     style:
       " rounded-3xl  py-10 bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-50",
     description:
-      "Standalone components tailored to your needs and easily integrated. Perfect for website elements or sections.",
+      "Affordable plan for startups with essential PR services to build brand presence",
     button: "Buy Now",
   },
   {
@@ -32,17 +32,17 @@ const plans = [
     name: "Premium",
     price: "US $1299",
     features: [
-      "Fully responsive on all screens",
-      "React / Next.js / Tailwind CSS code",
-      "Design + Development",
-      "24-hour support response time",
-      "Private communication channel",
-      "3-5 days turnaround time",
+      "Strategic Media Campaigns",
+      "Advanced Social Media Strategy",
+      "Professional Content Creation",
+      "Influencer Collaborations",
+      "Reputation Management",
+      "Detailed Analytics Reports",
     ],
     style:
       " rounded-3xl  py-10 bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-50",
     description:
-      "Best for early-stage startups, businesses, and freelancers that need a marketing side to showcase their work and vision.",
+      "Comprehensive PR package with advanced services for robust brand growth and engagement",
     button: "Buy Now",
   },
   {
@@ -51,19 +51,19 @@ const plans = [
     feature: "Contact Us",
     price: "Let's Talk!",
     features: [
-      "Fully responsive on all screens",
-      "React / Next.js / Tailwind CSS code",
-      "Design + Development",
-      "Unlimited Revisions",
-      "24-hour support response time",
-      "Private communication channel",
-      "Priority Development Queue",
-      "Dedicated Project Manager",
+      "Global Media Outreach",
+      "Comprehensive Social Media Management",
+      "High-Level Content Creation",
+      "Strategic Influencer Partnerships",
+      "Crisis Management",
+      "Advanced Brand Analytics",
+      "Custom PR Campaigns",
+      "Executive Training",
     ],
     style:
       " h-full rounded-3xl py-10 flex flex-col  bg-clip-text text-transparent bg-gradient-to-b from-neutral-300 to-neutral-50  ",
     description:
-      "Best for small businesses and startups that need a performant website that looks great and converts visitors to customers.",
+      "Ultimate PR solution with extensive services for large-scale brand expansion and influence",
     button: "Contact Us",
   },
 ];
@@ -126,21 +126,35 @@ const Pricing = () => {
 
                 <div className={plan.button}>
                   {index === 0 && (
+                    // <Link
+                    //   href="https://buy.stripe.com/6oEg1WdsibFr1EYbIK"
+                    //   className="rounded-3xl my-4  py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-emerald-500 to-blue-300"
+                    // >
+                    //   Buy Now
+                    // </Link>
+
                     <Link
-                      href="https://buy.stripe.com/6oEg1WdsibFr1EYbIK"
-                      className="rounded-3xl my-4  py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-emerald-500 to-blue-300"
-                    >
-                      Buy Now
-                    </Link>
+                    href="/contact"
+                    className="rounded-3xl my-4  py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-purple-500 to-blue-300"
+                  >
+                    Contact Us
+                  </Link>
                   )}
                     {index === 1 && (
-                      <Link
+                      // <Link
                         
-                        href="https://buy.stripe.com/14k2b65ZQ8tf5Ve28c"  
-                        className="rounded-3xl my-4  py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-emerald-500 to-blue-300" 
-                      >
-                        Buy Now
-                        </Link>
+                      //   href="https://buy.stripe.com/14k2b65ZQ8tf5Ve28c"  
+                      //   className="rounded-3xl my-4  py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-emerald-500 to-blue-300" 
+                      // >
+                      //   Buy Now
+                      //   </Link>
+
+                      <Link
+                      href="/contact"
+                      className="rounded-3xl my-4  py-2 text-white w-full mx-auto items-center flex justify-center bg-gradient-to-r from-purple-500 to-blue-300"
+                    >
+                      Contact Us
+                    </Link>
                     )}
                     {index === 2 && (
 

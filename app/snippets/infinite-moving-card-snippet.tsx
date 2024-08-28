@@ -18,31 +18,33 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "Preetify Go Global has been instrumental in amplifying our brand’s voice in the market. Their innovative strategies and deep understanding of social media dynamics have significantly boosted our brand’s visibility. We couldn’t have asked for a better partner to help us navigate the digital landscape.",
+    name: "Ananya Sharma",
+    title: "CEO, GreenLeaf Organics",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
-  },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
+      "The team at Preetify Go Global is a powerhouse of creativity and strategic insight. They turned our brand into a household name with their meticulous planning and execution. Their dedication to our success is unmatched, and the results speak for themselves.",
+    name: "Rahul Verma",
+    title: "Founder, TechSavvy Solutions",
   },
   {
     quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
+      "Working with Preetify Go Global was a turning point for our company. They took the time to understand our brand and delivered tailored strategies that drove impressive growth in our market presence. Their expertise in brand management is unparalleled.",
+    name: "Priya Mehta",
+    title: "Marketing Head, UrbanStyle Apparel",
   },
   {
     quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
+      "Preetify Go Global exceeded our expectations with their comprehensive approach to brand building. Their team’s ability to craft compelling narratives and connect with our target audience was key to our brand’s success. We highly recommend their services to anyone looking to elevate their brand.",
+    name: "Vikram Singh",
+    title: "Director, PureBliss Skincare",
+  },
+  {
+    quote:
+      "From strategy to execution, Preetify Go Global delivered exceptional results. Their expertise in navigating the complex world of social media and branding helped us achieve our goals and expand our reach. They are true partners in every sense of the word.",
+    name: "Ritu Kapoor",
+    title: "Co-Founder, EcoNest Homes",
   },
 ];
+

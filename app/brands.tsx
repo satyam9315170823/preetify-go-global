@@ -66,7 +66,7 @@ const Brands = () => {
           )}
         >
           &quot;We got rid of nearly a dozen different tools because of what
-          Bird does for us.&quot;
+          Preetify Go Global does for us.&quot;
         </div>
 
         <div className="items-center flex justify-center flex-col text-white">
@@ -79,8 +79,8 @@ const Brands = () => {
           />
 
           <div className=" text-center">
-            <div className="text-sm  font-medium pt-4">Carlos Hernandez</div>
-            <div className="text-sm">Marketing Director, Palium Software</div>
+            <div className="text-sm  font-medium pt-4">Preeti Dhingra</div>
+            <div className="text-sm">CEO, Preetify Go Gloabl</div>
           </div>
         </div>
       </div>

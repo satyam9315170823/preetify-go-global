@@ -22,33 +22,35 @@ const FAQS = () => {
             </div>
             <Accordion type="single" collapsible>
     <AccordionItem value="item-1">
-      <AccordionTrigger>What is Bird?</AccordionTrigger>
+      <AccordionTrigger>What services does Preetify Go Global offer?</AccordionTrigger>
       <AccordionContent>
-        Bird is a full fledge marketing agency that specializes in branding, web design, and digital marketing.
+      Preetify Go Global provides comprehensive PR services, including public relations strategy, social media management, event management, reputation management, and content creation.
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-2">
-      <AccordionTrigger>How to start ?</AccordionTrigger>
+      <AccordionTrigger>How can Preetify Go Global help my brand grow</AccordionTrigger>
       <AccordionContent>
-        You can start by contacting us. We will get back to you within 24 hours.
+      We develop tailored PR strategies that resonate with your target audience, enhance your brand's visibility, and build lasting relationships
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-3">
       <AccordionTrigger>
-    Pricing ?
+      What makes Preetify Go Global different from other PR agencies?
       </AccordionTrigger>
       <AccordionContent>
-        We offer custom tailored solutions for your business. Contact us to get a quote.
+      Our dynamic and strategic approach sets us apart. We focus on understanding your brand's unique needs and crafting personalized PR strategies that deliver measurable results
         
       </AccordionContent>
     </AccordionItem>
   
     <AccordionItem value="item-4">
       <AccordionTrigger>
-    Support ?
+      Do you offer customized PR packages?
         </AccordionTrigger>
       <AccordionContent>
-        We offer Monday-Friday support for all our clients.
+      Yes, we offer customized PR packages tailored to your specific needs and budget. Whether you're a startup or an established brand, we work with you to create a plan that aligns with your goals and drives success.
+
+
       </AccordionContent>
     </AccordionItem>
   </Accordion>

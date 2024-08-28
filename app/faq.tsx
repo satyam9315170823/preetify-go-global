@@ -30,7 +30,7 @@ const FAQS = () => {
     <AccordionItem value="item-2">
       <AccordionTrigger>How can Preetify Go Global help my brand grow</AccordionTrigger>
       <AccordionContent>
-      We develop tailored PR strategies that resonate with your target audience, enhance your brand's visibility, and build lasting relationships
+      We develop tailored PR strategies that resonate with your target audience, enhance your brands visibility, and build lasting relationships
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-3">
@@ -38,7 +38,7 @@ const FAQS = () => {
       What makes Preetify Go Global different from other PR agencies?
       </AccordionTrigger>
       <AccordionContent>
-      Our dynamic and strategic approach sets us apart. We focus on understanding your brand's unique needs and crafting personalized PR strategies that deliver measurable results
+      Our dynamic and strategic approach sets us apart. We focus on understanding your brands unique needs and crafting personalized PR strategies that deliver measurable results
         
       </AccordionContent>
     </AccordionItem>
@@ -48,7 +48,7 @@ const FAQS = () => {
       Do you offer customized PR packages?
         </AccordionTrigger>
       <AccordionContent>
-      Yes, we offer customized PR packages tailored to your specific needs and budget. Whether you're a startup or an established brand, we work with you to create a plan that aligns with your goals and drives success.
+      Yes, we offer customized PR packages tailored to your specific needs and budget. Whether you are a startup or an established brand, we work with you to create a plan that aligns with your goals and drives success.
 
 
       </AccordionContent>

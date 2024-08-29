@@ -80,7 +80,7 @@ const Brands = () => {
 
           <div className=" text-center">
             <div className="text-sm  font-medium pt-4">Preeti Dhingra</div>
-            <div className="text-sm">CEO, Preetify Go Gloabl</div>
+            <div className="text-sm">CEO, Prettify Go Gloabl</div>
           </div>
         </div>
       </div>

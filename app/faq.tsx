@@ -22,20 +22,20 @@ const FAQS = () => {
             </div>
             <Accordion type="single" collapsible>
     <AccordionItem value="item-1">
-      <AccordionTrigger>What services does Preetify Go Global offer?</AccordionTrigger>
+      <AccordionTrigger>What services does Prettify Go Global offer?</AccordionTrigger>
       <AccordionContent>
-      Preetify Go Global provides comprehensive PR services, including public relations strategy, social media management, event management, reputation management, and content creation.
+      Prettify Go Global provides comprehensive PR services, including public relations strategy, social media management, event management, reputation management, and content creation.
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-2">
-      <AccordionTrigger>How can Preetify Go Global help my brand grow</AccordionTrigger>
+      <AccordionTrigger>How can Prettify Go Global help my brand grow</AccordionTrigger>
       <AccordionContent>
       We develop tailored PR strategies that resonate with your target audience, enhance your brands visibility, and build lasting relationships
       </AccordionContent>
     </AccordionItem>
     <AccordionItem value="item-3">
       <AccordionTrigger>
-      What makes Preetify Go Global different from other PR agencies?
+      What makes Preettify Go Global different from other PR agencies?
       </AccordionTrigger>
       <AccordionContent>
       Our dynamic and strategic approach sets us apart. We focus on understanding your brands unique needs and crafting personalized PR strategies that deliver measurable results

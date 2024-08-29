@@ -73,7 +73,7 @@ export default function Home() {
           Prettify Go Global <br /> scale your business
         </div>
         <p className="mt-4 text-lg font-normal  text-neutral-300 max-w-lg text-center mx-auto px-4">
-        Empowering brands with strategic PR and innovative storytelling, Preetify Go Global amplifies your voice and drives impactful connections
+        Empowering brands with strategic PR and innovative storytelling,  Prettify Go Global amplifies your voice and drives impactful connections
         </p>
 
         <Link

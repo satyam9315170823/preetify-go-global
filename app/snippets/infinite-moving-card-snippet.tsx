@@ -18,31 +18,31 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "Preetify Go Global has been instrumental in amplifying our brand’s voice in the market. Their innovative strategies and deep understanding of social media dynamics have significantly boosted our brand’s visibility. We couldn’t have asked for a better partner to help us navigate the digital landscape.",
+      "Prettify Go Global has been instrumental in amplifying our brand’s voice in the market. Their innovative strategies and deep understanding of social media dynamics have significantly boosted our brand’s visibility. We couldn’t have asked for a better partner to help us navigate the digital landscape.",
     name: "Ananya Sharma",
     title: "CEO, GreenLeaf Organics",
   },
   {
     quote:
-      "The team at Preetify Go Global is a powerhouse of creativity and strategic insight. They turned our brand into a household name with their meticulous planning and execution. Their dedication to our success is unmatched, and the results speak for themselves.",
+      "The team at Prettify Go Global is a powerhouse of creativity and strategic insight. They turned our brand into a household name with their meticulous planning and execution. Their dedication to our success is unmatched, and the results speak for themselves.",
     name: "Rahul Verma",
     title: "Founder, TechSavvy Solutions",
   },
   {
     quote:
-      "Working with Preetify Go Global was a turning point for our company. They took the time to understand our brand and delivered tailored strategies that drove impressive growth in our market presence. Their expertise in brand management is unparalleled.",
+      "Working with Prettify Go Global was a turning point for our company. They took the time to understand our brand and delivered tailored strategies that drove impressive growth in our market presence. Their expertise in brand management is unparalleled.",
     name: "Priya Mehta",
     title: "Marketing Head, UrbanStyle Apparel",
   },
   {
     quote:
-      "Preetify Go Global exceeded our expectations with their comprehensive approach to brand building. Their team’s ability to craft compelling narratives and connect with our target audience was key to our brand’s success. We highly recommend their services to anyone looking to elevate their brand.",
+      "Prettify Go Global exceeded our expectations with their comprehensive approach to brand building. Their team’s ability to craft compelling narratives and connect with our target audience was key to our brand’s success. We highly recommend their services to anyone looking to elevate their brand.",
     name: "Vikram Singh",
     title: "Director, PureBliss Skincare",
   },
   {
     quote:
-      "From strategy to execution, Preetify Go Global delivered exceptional results. Their expertise in navigating the complex world of social media and branding helped us achieve our goals and expand our reach. They are true partners in every sense of the word.",
+      "From strategy to execution, Prettify Go Global delivered exceptional results. Their expertise in navigating the complex world of social media and branding helped us achieve our goals and expand our reach. They are true partners in every sense of the word.",
     name: "Ritu Kapoor",
     title: "Co-Founder, EcoNest Homes",
   },

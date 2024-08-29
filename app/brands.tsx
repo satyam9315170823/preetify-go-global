@@ -66,7 +66,7 @@ const Brands = () => {
           )}
         >
           &quot;We got rid of nearly a dozen different tools because of what
-          Preetify Go Global does for us.&quot;
+          Prettify Go Global does for us.&quot;
         </div>
 
         <div className="items-center flex justify-center flex-col text-white">

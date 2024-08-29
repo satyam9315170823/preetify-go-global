@@ -12,7 +12,7 @@ const font = Poppins(
   );
 
 export const metadata: Metadata = {
-  title: "Preetify Go global",
+  title: "Prettify Go global",
   description: "A PR Agency ",
 };
 

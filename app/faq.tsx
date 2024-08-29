@@ -35,7 +35,7 @@ const FAQS = () => {
     </AccordionItem>
     <AccordionItem value="item-3">
       <AccordionTrigger>
-      What makes Preettify Go Global different from other PR agencies?
+      What makes Prettify Go Global different from other PR agencies?
       </AccordionTrigger>
       <AccordionContent>
       Our dynamic and strategic approach sets us apart. We focus on understanding your brands unique needs and crafting personalized PR strategies that deliver measurable results
